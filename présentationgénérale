@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Profil, Formation & Université - Alexandre COEURET</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- En-tête et Navigation -->
+    <header>
+        <div class="container header-content">
+            <h1>Alexandre COEURET - Projet Pickleball</h1>
+            <nav>
+                <a href="presentation.html" class="nav-link active">1. Présentation Générale</a>
+                <a href="evenement.html" class="nav-link">2. Description de l'événement</a>
+                <a href="programme.html" class="nav-link">3. Programme & Déroulé</a>
+                <a href="pratique.html" class="nav-link">4. Infos Pratiques</a>
+                <a href="inscription.html" class="nav-link">5. Inscriptions</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main class="container">
+        <section class="page-section">
+            <h2>1. Profil, Formation & Université</h2>
+
+            <!-- Profil Personnel -->
+            <div class="card-inner">
+                <h3>Alexandre COEURET : Management & Sports Extrêmes</h3>
+                <div class="flex-lg-row">
+                    <div class="lg-w-1-3">
+                        <img src="images/portrait.png" 
+                             alt="Photo d'Alexandre COEURET, étudiant" 
+                             class="rounded-lg shadow-md w-full h-auto object-cover">
+                    </div>
+                    <div class="lg-w-2-3 section-content">
+                        <p class="leading-relaxed">
+                            Je suis **Alexandre COEURET**, étudiant en **Master 2 Management du Sport** à l'Université Paris Nanterre. Mon parcours est guidé par une double passion : la rigueur de la gestion d'organisation et l'intensité des **sports extrêmes** (ski hors-piste, escalade).
+                        </p>
+                        <p class="leading-relaxed">
+                            Mon expérience dans ces disciplines m'a appris la gestion du risque, la planification minutieuse et l'adaptabilité, des qualités que j'applique aujourd'hui dans mes projets universitaires, notamment l'organisation du tournoi de Pickleball.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formation (M2 MS Nanterre) -->
+            <div class="card-inner">
+                <h3>Le Master 2 Management du Sport (MS)</h3>
+                <p class="text-lg leading-relaxed section-content">
+                    Cette formation à l'UFR STAPS de Nanterre est axée sur la stratégie et le développement des structures sportives. Les modules clés incluent :
+                </p>
+                <ul class="list-disc section-content" style="margin-left: 1.5rem; margin-top: 0.75rem;">
+                    <li><span style="font-weight: 700;">Gestion Événementielle :</span> Maîtrise des outils logistiques et budgétaires.</li>
+                    <li><span style="font-weight: 700;">Marketing Sportif :</span> Stratégies de communication et recherche de partenariats.</li>
+                    <li><span style="font-weight: 700;">Droit et Économie du Sport :</span> Compréhension du cadre réglementaire et des modèles économiques.</li>
+                </ul>
+            </div>
+
+            <!-- Université Paris Nanterre -->
+            <div class="card-inner">
+                <h3>L'Université Paris Nanterre</h3>
+                <p class="text-lg leading-relaxed section-content">
+                    L'Université Paris Nanterre offre un cadre dynamique, reconnu pour son UFR STAPS et sa forte implication dans le milieu sportif francilien. Cette proximité avec les acteurs professionnels est essentielle pour mener à bien des projets concrets comme mon tournoi.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alexandre COEURET. Portfolio M2 Management du Sport.</p>
+            <p style="margin-top: 0.5rem; color: #9ca3af;">Site multi-pages, conforme aux contraintes techniques.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
