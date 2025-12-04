@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Alexandre COEURET - M2 Management du Sport</title>
+    <!-- Chargement de Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuration de la police Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Gris très clair */
+        }
+        /* Styles personnalisés pour la navigation active */
+        .nav-link.active {
+            background-color: #3b82f6; /* Bleu primaire */
+            color: white !important;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- En-tête et Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800 mb-4 md:mb-0">
+                Alexandre COEURET - M2 Management du Sport
+            </h1>
+            <nav id="navbar" class="space-y-2 md:space-y-0 md:space-x-4 flex flex-col md:flex-row text-sm font-medium">
+                <a href="#accueil" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 transition duration-150 ease-in-out" data-page="accueil">Accueil</a>
+                <a href="#parcours" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 transition duration-150 ease-in-out" data-page="parcours">Mon Master 2</a>
+                <a href="#universite" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 transition duration-150 ease-in-out" data-page="universite">L'Université Nanterre</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu Principal (Simulations de Pages) -->
+    <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        
+        <!-- SECTION 1: ACCUEIL (Présentation Personnelle) -->
+        <section id="page-accueil" class="page-content space-y-8 bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            <h2 class="text-4xl font-extrabold text-blue-700 border-b-4 border-blue-500 pb-3">
+                Accueil & Présentation Personnelle
+            </h2>
+            <div class="flex flex-col lg:flex-row gap-8 items-center">
+                <div class="lg:w-1/3 w-full">
+                    <!-- Image 1 : Portrait de l'étudiant (libre de droit, ici un placeholder) -->
+                    <img src="https://placehold.co/400x300/a8c0ea/ffffff?text=Portrait+Etudiant" 
+                         alt="Photo d'Alexandre COEURET, étudiant" 
+                         class="rounded-lg shadow-xl w-full h-auto object-cover transform hover:scale-[1.02] transition duration-300" 
+                         onerror="this.onerror=null; this.src='https://placehold.co/400x300/a8c0ea/ffffff?text=Portrait+Etudiant';">
+                </div>
+                <div class="lg:w-2/3 w-full space-y-4 text-gray-700">
+                    <p class="text-lg leading-relaxed">
+                        Bienvenue sur mon portfolio numérique ! Je suis **Alexandre COEURET**, étudiant en **Master 2 Management du Sport** à l'Université de Nanterre. Mon parcours est motivé par l'énergie et la complexité des organisations sportives.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Ma passion pour les **sports extrêmes** (ski hors-piste, escalade, VTT de descente) nourrit mon désir de comprendre et de gérer des environnements complexes. Actuellement, je mets mes compétences en gestion de projet à l'épreuve en organisant mon premier **tournoi de Pickleball**. Ce projet concret est l'occasion d'appliquer mes connaissances en logistique, communication, recherche de partenariats et gestion des risques événementiels.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: MON PARCOURS M2 STAPS MOS -->
+        <section id="page-parcours" class="page-content hidden space-y-8 bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            <h2 class="text-4xl font-extrabold text-blue-700 border-b-4 border-blue-500 pb-3">
+                Le Master 2 Management du Sport (MS) à Nanterre
+            </h2>
+            <div class="flex flex-col lg:flex-row-reverse gap-8 items-start">
+                <div class="lg:w-1/3 w-full">
+                    <!-- Image 2 : Activité sportive ou événement (libre de droit, ici un placeholder) -->
+                    <img src="https://placehold.co/600x400/96c5f7/ffffff?text=Pickleball+Tournament" 
+                         alt="Image représentant le terrain de Pickleball" 
+                         class="rounded-lg shadow-xl w-full h-auto object-cover transform hover:scale-[1.02] transition duration-300"
+                         onerror="this.onerror=null; this.src='https://placehold.co/600x400/96c5f7/ffffff?text=Pickleball+Tournament';">
+                </div>
+                <div class="lg:w-2/3 w-full space-y-4 text-gray-700">
+                    <p class="text-lg leading-relaxed font-semibold text-blue-800">
+                        Objectifs de la Formation :
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Le Master 2 Management du Sport (MS) à Nanterre se concentre sur la formation de futurs leaders capables de gérer, structurer et développer des organisations sportives, qu'elles soient publiques, associatives ou privées. L'accent est mis sur l'innovation et l'adaptabilité face aux nouvelles pratiques.
+                    </p>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-md">
+                        <li><span class="font-bold">Stratégie & Développement :</span> Élaboration de plans de développement pour les structures sportives.</li>
+                        <li><span class="font-bold">Management de Projet Événementiel :</span> De la conception logistique à l'analyse post-événement.</li>
+                        <li><span class="font-bold">Digitalisation du Sport :</span> Utilisation des outils numériques pour la performance et la communication.</li>
+                        <li><span class="font-bold">Économie du Sport :</span> Maîtrise des modèles économiques des différentes filières.</li>
+                    </ul>
+                    <p class="text-lg leading-relaxed mt-4">
+                        **Mon Projet Actuel :** L'organisation du tournoi de Pickleball est un cas d'étude réel qui me permet d'appliquer ces concepts, de la recherche de sponsors à la communication ciblée, un atout majeur pour transformer la théorie en pratique opérationnelle.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: L'UNIVERSITÉ -->
+        <section id="page-universite" class="page-content hidden space-y-8 bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            <h2 class="text-4xl font-extrabold text-blue-700 border-b-4 border-blue-500 pb-3">
+                L'Université Paris Nanterre
+            </h2>
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-2/3 w-full space-y-4 text-gray-700">
+                    <p class="text-lg leading-relaxed">
+                        Mon parcours académique se déroule au sein de l'**Université Paris Nanterre**, notamment au sein de l'UFR STAPS (Sciences et Techniques des Activités Physiques et Sportives) qui est réputée pour son expertise en management et ses liens forts avec le mouvement sportif francilien.
+                    </p>
+                    <p class="text-lg leading-relaxed font-semibold text-blue-800">
+                        Un environnement dynamique et engagé :
+                    </p>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-md">
+                        <li><span class="font-bold">Proximité des Acteurs Sportifs :</span> Facilité d'accès aux événements et aux entreprises partenaires dans la région.</li>
+                        <li><span class="font-bold">Infrastructures :</span> Accès à des installations sportives et des centres de ressources de qualité.</li>
+                        <li><span class="font-bold">Encadrement Expert :</span> Un corps professoral spécialisé dans l'économie, le droit et la sociologie du sport.</li>
+                    </ul>
+                    <p class="text-lg leading-relaxed mt-4">
+                        C'est dans cet environnement stimulant que j'acquiers la rigueur académique nécessaire pour encadrer des projets ambitieux, tels que le développement d'un nouveau sport comme le Pickleball en France.
+                    </p>
+                </div>
+                <div class="lg:w-1/3 w-full">
+                    <!-- Image 3 : Campus Universitaire (libre de droit, ici un placeholder) -->
+                    <img src="https://placehold.co/800x400/3b82f6/ffffff?text=Campus+Paris+Nanterre" 
+                         alt="Vue du campus universitaire de Paris Nanterre" 
+                         class="rounded-lg shadow-xl w-full h-auto object-cover transform hover:scale-[1.02] transition duration-300"
+                         onerror="this.onerror=null; this.src='https://placehold.co/800x400/3b82f6/ffffff?text=Campus+Paris+Nanterre';">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de Page -->
+    <footer class="bg-gray-800 text-white mt-8 py-6">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2024 Alexandre COEURET. Portfolio M2 Management du Sport. Design avec Tailwind CSS.</p>
+            <p class="mt-2 text-gray-400">Pour le déploiement GitHub, il suffira de mettre ce fichier `index.html` à la racine de votre dépôt.</p>
+        </div>
+    </footer>
+
+    <!-- LOGIQUE JAVASCRIPT POUR LA NAVIGATION MONOPAGE -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const pages = document.querySelectorAll('.page-content');
+            
+            // Fonction pour afficher une page et mettre à jour l'état actif de la nav
+            const showPage = (pageId) => {
+                // 1. Masquer toutes les pages
+                pages.forEach(page => {
+                    page.classList.add('hidden');
+                });
+                
+                // 2. Afficher la page demandée
+                const activePage = document.getElementById(`page-${pageId}`);
+                if (activePage) {
+                    activePage.classList.remove('hidden');
+                }
+                
+                // 3. Mettre à jour les liens de navigation
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('data-page') === pageId) {
+                        link.classList.add('active');
+                    }
+                });
+                
+                // Mettre à jour le hash dans l'URL (pour le partage/rafraîchissement)
+                if (window.location.hash !== `#${pageId}`) {
+                    history.pushState(null, null, `#${pageId}`);
+                }
+            };
+
+            // Gestionnaire de clic pour les liens de navigation
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const pageId = link.getAttribute('data-page');
+                    showPage(pageId);
+                });
+            });
+
+            // Gestionnaire de l'événement de changement de hash (boutons précédent/suivant du navigateur)
+            window.addEventListener('hashchange', () => {
+                const hash = window.location.hash.substring(1);
+                // Si le hash est vide, on prend 'accueil' par défaut
+                const pageId = hash || 'accueil'; 
+                showPage(pageId);
+            });
+
+            // Initialisation au chargement de la page
+            const initialHash = window.location.hash.substring(1);
+            // Déterminer la page initiale à afficher (accueil par défaut si aucun hash ou hash invalide)
+            let initialPageId = 'accueil';
+            if (initialHash && document.getElementById(`page-${initialHash}`)) {
+                 initialPageId = initialHash;
+            }
+            showPage(initialPageId);
+        });
+    </script>
+
+</body>
+</html>
