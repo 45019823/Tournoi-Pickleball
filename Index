@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Accueil - Présentation Étudiant</title>
+</head>
+<body>
+    <h1>Bienvenue sur mon site</h1>
+    <nav>
+        <a href="presentation.html">Présentation personnelle</a> |
+        <a href="master.html">Master MOS</a> |
+        <a href="universite.html">Université</a>
+    </nav>
+
+    <img src="images/image1.jpg" alt="Sport">
+</body>
+</html>
