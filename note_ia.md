@@ -1,4 +1,4 @@
-Note Explicative sur l'Usage de l'Intelligence Artificielle (IA)
+aNote Explicative sur l'Usage de l'Intelligence Artificielle (IA)
 
 Projet : Portfolio M2 Management du Sport - Organisation du Tournoi de Pickleball
 
