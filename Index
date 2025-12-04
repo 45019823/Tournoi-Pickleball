@@ -2,17 +2,50 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Accueil - Présentation Étudiant</title>
+    <title>Accueil – Alexandre Coeuret</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<header>
     <h1>Bienvenue sur mon site</h1>
     <nav>
-        <a href="presentation.html">Présentation personnelle</a> |
-        <a href="master.html">Master MOS</a> |
-        <a href="universite.html">Université</a>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Mon parcours</a>
+        <a href="event.html">Événement</a>
     </nav>
+</header>
 
-    <img src="images/image1.jpg" alt="Sport">
+<section>
+    <h2>Présentation personnelle</h2>
+    <p>Je m’appelle <strong>Alexandre Coeuret</strong>, étudiant en Master 2 STAPS Management des Organisations Sportives (MOS). Passionné depuis toujours par les sports extrêmes, j’ai développé un intérêt particulier pour les environnements dynamiques, où le dépassement de soi, la prise de décision rapide et la gestion du risque sont essentiels. Cette passion influence directement ma vision du management : flexible, créatif et orienté performance.</p>
+</section>
+
+<section>
+    <h2>Présentation du Master 2 STAPS MOS</h2>
+    <p>Le Master 2 STAPS MOS (Management des Organisations Sportives), réalisé à l’Université Paris Nanterre, forme les étudiants aux métiers du management, du marketing, de la communication et de la gestion dans le secteur sportif. Il permet d’acquérir une expertise solide dans la gestion des structures sportives, le développement de projets, la communication stratégique et l’analyse des politiques sportives.</p>
+
+    <h3>Compétences développées</h3>
+    <ul>
+        <li>Management stratégique et opérationnel dans les organisations sportives</li>
+        <li>Marketing du sport et développement commercial</li>
+        <li>Gestion de projet et événementiel sportif</li>
+        <li>Communication institutionnelle et digitale</li>
+        <li>Analyse économique et juridique du sport</li>
+        <li>Leadership, gestion d’équipe, prise de décision</li>
+    </ul>
+</section>
+
+<section>
+    <h2>À propos de l’Université Paris Nanterre</h2>
+    <p>L’Université Paris Nanterre est reconnue pour la qualité de ses formations, sa vie de campus dynamique et son expertise dans les sciences du sport. Située aux portes de Paris, elle offre un environnement stimulant, ouvert sur la recherche, l’innovation et le monde professionnel.</p>
+
+    <img src="img/universite.jpg" alt="Université Paris Nanterre" class="illustration">
+</section>
+
+<footer>
+    <p>© 2025 – Alexandre Coeuret</p>
+</footer>
+
 </body>
 </html>
