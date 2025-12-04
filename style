@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Parcours – Alexandre Coeuret</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mon parcours</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Mon parcours</a>
+        <a href="event.html">Événement</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Un parcours guidé par le sport</h2>
+    <p>Depuis mon plus jeune âge, le sport occupe une place centrale dans ma vie. Passionné par les sports extrêmes tels que le skate, le BMX ou encore le trail technique, j’ai développé une capacité d’adaptation et un sens de l’engagement que j’applique aujourd’hui dans ma formation et mes projets professionnels.</p>
+    
+    <img src="img/sport-extreme.jpg" alt="Sports extrêmes" class="illustration">
+</section>
+
+<section>
+    <h2>Vers le management sportif</h2>
+    <p>Après un parcours en STAPS, j’ai décidé de me spécialiser dans le management sportif afin de lier mes compétences organisationnelles à ma passion pour le sport. Le Master MOS m’a permis de renforcer mes connaissances en stratégie, marketing et gestion des organisations sportives.</p>
+</section>
+
+<section>
+    <h2>Objectifs professionnels</h2>
+    <p>À terme, je souhaite intégrer une structure sportive ou un organisme événementiel où je pourrai développer des projets innovants, gérer des équipes et participer activement au développement d’événements sportifs modernes.</p>
+
+    <img src="img/organisation.jpg" alt="Organisation sportive" class="illustration">
+</section>
+
+<footer>
+    <p>© 2025 – Alexandre Coeuret</p>
+</footer>
+
+</body>
+</html>
